@@ -16,17 +16,17 @@ const Navbar = () => {
           <img src="/img/brand_logo.png" alt="" className="logo-brand" />
         </Link>
         <div className="navbar-search">
-          <input type="text" className="search-box" placeholder='Lều, găng tay, bếp,...'/>
+          <input type="text" className="search-box" placeholder='Tent, hand, stove, ...'/>
           <button className='btn search-btn'>
             <BsSearch className='search-icon'/>
-            Tìm kiếm
+            Search
           </button>
         </div>
         <div className="navbar-account">
           {accountName !== "" ? <div className='account'>
             <FiUser className="account-icon"/>
             <div className="account-info">
-              <p>Tài khoản</p>
+              <p>Account</p>
               <div className="account-name">
                 <p className='name'>{accountName}</p>
                 <BsCaretDown className='account-down-icon'/>
